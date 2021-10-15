@@ -23,5 +23,3 @@ source $HOME/.config/nvim/plug-config/telescope.vim
 "luafile $HOME/.config/nvim/lua/config/lsp-config.lua
 "source $HOME/.config/nvim/plug-config/cmp-config.vim
 "luafile $HOME/.config/nvim/lua/config/cmp/default.lua
-
-
