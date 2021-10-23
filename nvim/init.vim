@@ -10,9 +10,10 @@ source $HOME/.config/nvim/themes/dichromatic.vim
 " plugins config
 source $HOME/.config/nvim/plug-config/lsp-config.vim
 "luafile $HOME/.config/nvim/lua/config/compe-config.lua
-luafile $HOME/.config/nvim/lua/lsp/python-lsp.lua
-luafile $HOME/.config/nvim/lua/lsp/bash-lsp.lua
+"luafile $HOME/.config/nvim/lua/lsp/python-lsp.lua
+"luafile $HOME/.config/nvim/lua/lsp/bash-lsp.lua
 source $HOME/.config/nvim/plug-config/telescope.vim
+source $HOME/.config/nvim/plug-config/coc-config.vim
 
 
 " lsp
