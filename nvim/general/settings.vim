@@ -23,7 +23,7 @@ set smartindent                         " Makes indenting smart
 set shiftwidth=4                        " Change the number of space characters inserted for indentation
 set expandtab                           " Converts tabs to spaces
 set hidden                              " Required to keep multiple buffers open multiple buffers
-set nowrap                              " Display long lines as just one line
+"set nowrap                              " Display long lines as just one line
 set incsearch                           " Show found elements while searching
 set scrolloff=8                         " Stop scrolling 8 lines before the end of the file is reached
 set cursorline                          " Enable highlighting of the current line
