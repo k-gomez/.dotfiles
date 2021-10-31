@@ -14,6 +14,7 @@ source $HOME/.config/nvim/plug-config/lsp-config.vim
 "luafile $HOME/.config/nvim/lua/lsp/bash-lsp.lua
 source $HOME/.config/nvim/plug-config/telescope.vim
 source $HOME/.config/nvim/plug-config/coc-config.vim
+source $HOME/.config/nvim/plug-config/vimtex.vim
 
 
 " lsp

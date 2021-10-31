@@ -23,6 +23,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 
- call plug#end()
+  "TeX
+  Plug 'lervag/vimtex'
+
+  call plug#end()
 
 
