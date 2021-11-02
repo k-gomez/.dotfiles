@@ -26,6 +26,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   "TeX
   Plug 'lervag/vimtex'
 
+  "Colors
+  Plug 'tjdevries/colorbuddy.vim'
+  Plug 'tjdevries/gruvbuddy.nvim'
+
   call plug#end()
-
-

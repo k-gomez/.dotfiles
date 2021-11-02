@@ -4,8 +4,9 @@ source $HOME/.config/nvim/general/settings.vim
 " plugins
 source $HOME/.config/nvim/vim-plug/plugins.vim
 
-" themes
-source $HOME/.config/nvim/themes/dichromatic.vim
+" themes / colors
+"source $HOME/.config/nvim/themes/dichromatic.vim
+source $HOME/.config/nvim/themes/colors.vim
 
 " plugins config
 source $HOME/.config/nvim/plug-config/lsp-config.vim
@@ -15,6 +16,7 @@ source $HOME/.config/nvim/plug-config/lsp-config.vim
 source $HOME/.config/nvim/plug-config/telescope.vim
 source $HOME/.config/nvim/plug-config/coc-config.vim
 source $HOME/.config/nvim/plug-config/vimtex.vim
+
 
 
 " lsp
