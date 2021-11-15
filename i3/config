@@ -199,4 +199,4 @@ bindsym $mod+m move workspace to output left
 bindsym $mod+Shift+period exec systemctl suspend
 
 # Switch to last workspace
-bindsym $mod+Tab workspace back_and_forth
+bindsym $mod+Shift+Tab workspace back_and_forth
