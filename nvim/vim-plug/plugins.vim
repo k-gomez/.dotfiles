@@ -30,4 +30,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tjdevries/colorbuddy.vim'
   Plug 'tjdevries/gruvbuddy.nvim'
 
-  call plug#end()
+
+  "Go
+  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+  
+
+call plug#end()
