@@ -105,3 +105,10 @@ alias vim='nvim'
 alias xr_home='./scripts/xrandr/monitor_home'
 alias xr_duplicate='./scripts/xrandr/monitor_duplicate' 
 alias xr_off='./scripts/xrandr/monitor_off'
+
+# golang exports
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
+# protege
+alias protege='/home/kgb/tools/Protege-5.5.0/run.sh'
