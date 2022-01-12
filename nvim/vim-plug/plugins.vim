@@ -9,13 +9,19 @@ call plug#begin('~/.config/nvim/autoload/plugged')
  " Plug 'scrooloose/NERDTree'      " File explorer
   Plug 'jiangmiao/auto-pairs'     " Auto pairs for '(' '[' '{'
   Plug 'romainl/vim-dichromatic'  " A dark colorscheme for color blind vimmers, but not only.
-  Plug 'neovim/nvim-lspconfig'    " lsp
-  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  "Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  
+  " lsp 
+  Plug 'neovim/nvim-lspconfig'
+  " lsp autocomplete
+  Plug 'hrsh7th/cmp-nvim-lsp'
+  Plug 'hrsh7th/cmp-buffer'
+  Plug 'hrsh7th/cmp-path'
+  Plug 'hrsh7th/nvim-cmp'
 
-"  Plug 'hrsh7th/nvim-compe'       " lsp
-"  Plug 'hrsh7th/nvim-cmp'
-"  Plug 'hrsh7th/cmp-buffer'
-"  Plug 'hrsh7th/cmp-nvim-lua'
+  " lsp snip manager
+  Plug 'L3MON4D3/LuaSnip'
+  Plug 'saadparwaiz1/cmp_luasnip'
 
   "Telescope
   Plug 'nvim-lua/plenary.nvim'
@@ -32,7 +38,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 
   "Go
-  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+"  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
   
 
 call plug#end()

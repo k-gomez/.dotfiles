@@ -9,14 +9,15 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/themes/colors.vim
 
 " plugins config
-source $HOME/.config/nvim/plug-config/lsp-config.vim
+"source $HOME/.config/nvim/plug-config/lsp-config.vim
 "luafile $HOME/.config/nvim/lua/config/compe-config.lua
 "luafile $HOME/.config/nvim/lua/lsp/python-lsp.lua
 "luafile $HOME/.config/nvim/lua/lsp/bash-lsp.lua
 source $HOME/.config/nvim/plug-config/telescope.vim
-source $HOME/.config/nvim/plug-config/coc-config.vim
+"source $HOME/.config/nvim/plug-config/coc-config.vim
 source $HOME/.config/nvim/plug-config/vimtex.vim
 
+luafile $HOME/.config/nvim/lua/lsp/main.lua
 
 
 " lsp
