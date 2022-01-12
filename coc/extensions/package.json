@@ -6,7 +6,7 @@
     "coc-markdownlint": ">=1.12.3",
     "coc-pyright": ">=1.1.177",
     "coc-snippets": ">=2.4.6",
-    "coc-tsserver": ">=1.8.6",
+    "coc-tsserver": ">=1.9.4",
     "coc-vimlsp": ">=0.12.5",
     "coc-vimtex": ">=1.0.4"
   }
