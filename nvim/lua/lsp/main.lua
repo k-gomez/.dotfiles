@@ -51,3 +51,6 @@ cmp.setup({
     { name = 'buffer' },
   })
 })
+
+-- ltex-ls
+require'lspconfig'.ltex.setup{}
