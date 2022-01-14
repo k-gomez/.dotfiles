@@ -35,7 +35,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   "Colors
   Plug 'tjdevries/colorbuddy.vim'
   Plug 'tjdevries/gruvbuddy.nvim'
-
+  
+  "Icons
+"  Plug 'kyazdani42/nvim-web-devicons'
 
   "Go
 "  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }

@@ -19,6 +19,8 @@ source $HOME/.config/nvim/plug-config/vimtex.vim
 
 luafile $HOME/.config/nvim/lua/lsp/main.lua
 
+"luafile $HOME/.config/nvim/plug-config/devicons.lua
+
 
 " lsp
 "lua << EOF
