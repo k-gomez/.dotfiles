@@ -16,6 +16,7 @@ source $HOME/.config/nvim/themes/colors.vim
 source $HOME/.config/nvim/plug-config/telescope.vim
 "source $HOME/.config/nvim/plug-config/coc-config.vim
 source $HOME/.config/nvim/plug-config/vimtex.vim
+source $HOME/.config/nvim/plug-config/treesitter.vim
 
 luafile $HOME/.config/nvim/lua/lsp/main.lua
 

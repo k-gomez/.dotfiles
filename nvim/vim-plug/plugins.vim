@@ -13,6 +13,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   
   " lsp 
   Plug 'neovim/nvim-lspconfig'
+
   " lsp autocomplete
   Plug 'hrsh7th/cmp-nvim-lsp'
   Plug 'hrsh7th/cmp-buffer'
@@ -27,6 +28,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'nvim-lua/plenary.nvim'
   Plug 'nvim-telescope/telescope.nvim'
   Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+
+  " Treesitter
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 
   "TeX

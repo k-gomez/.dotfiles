@@ -1,0 +1,27 @@
+00:00:00.366115 VirtualBox GUI VM Selector Window 6.1.30 r148432 linux.amd64 (Nov 22 2021 16:03:59) release log
+00:00:00.366118 Log opened 2022-01-18T11:46:59.708243000Z
+00:00:00.366118 Build Type: release
+00:00:00.366126 OS Product: Linux
+00:00:00.366127 OS Release: 5.11.0-46-generic
+00:00:00.366128 OS Version: #51~20.04.1-Ubuntu SMP Fri Jan 7 06:51:40 UTC 2022
+00:00:00.366169 DMI Product Name: 20Y1CTO1WW
+00:00:00.366178 DMI Product Version: ThinkPad P14s Gen 1
+00:00:00.366189 Firmware type: UEFI
+00:00:00.366836 Secure Boot: Disabled
+00:00:00.366945 Host RAM: 45893MB (44.8GB) total, 40712MB (39.7GB) available
+00:00:00.366955 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.366956 Process ID: 35652
+00:00:00.366956 Package type: LINUX_64BITS_UBUNTU_19_10
+00:00:00.367029 Qt version: 5.12.8
+00:00:00.394705 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.394732 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.718516 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 960x0 x 476x1057
+00:00:00.718823 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 480x0 x 476x1057
+00:00:00.810754 refreshCertificates/#1: InMem.Cert.TbsCertificate.T3.Extensions.papItems[#].ExtnValue.NameConstraints.T0.PermittedSubtrees.papItems[#]: Unexpected sequence type/flags: 0x2/0x80 (expected 0x10/0x20)
+00:00:02.629941 convertVerifyAndAddPemCertificateToStore: cbData=0x1c624 expected 0x4d7
+00:00:02.630895 refreshCertificates/#3: Found 0/127 SSL certs we/you trust (previously 0/0).
+00:00:32.299977 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:32.357663 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:50.249787 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:52.672437 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:52.683886 GUI: UIMediumEnumerator: Medium-enumeration finished!

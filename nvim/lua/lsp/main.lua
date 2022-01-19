@@ -77,3 +77,6 @@ capabilities.textDocument.completion.completionItem.snippetSupport = true
 require'lspconfig'.cssls.setup {
   capabilities = capabilities,
 }
+
+--vim
+require'lspconfig'.vimls.setup{}
