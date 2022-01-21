@@ -1,5 +1,9 @@
 nix/
 VirtualBox/*
+VirtualBox/VBoxSVC.log
+VirtualBox/VirtualBox.xml
+VirtualBox/VirtualBox.xml-prev
+VirtualBox/selectorwindow.log
 Blackmagic Design/
 BraveSoftware/
 Mattermost/
