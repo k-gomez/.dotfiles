@@ -20,6 +20,8 @@ source $HOME/.config/nvim/plug-config/treesitter.vim
 
 luafile $HOME/.config/nvim/lua/lsp/main.lua
 
+luafile $HOME/.config/nvim/plug-config/nerveux.lua
+
 "luafile $HOME/.config/nvim/plug-config/devicons.lua
 
 

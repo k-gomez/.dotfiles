@@ -45,5 +45,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   "Go
 "  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
   
+  "Zettelkasten
+  Plug 'pyrho/nerveux.nvim'
+  Plug 'nvim-lua/popup.nvim'
 
 call plug#end()
