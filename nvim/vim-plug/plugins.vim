@@ -48,5 +48,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   "Zettelkasten
   Plug 'pyrho/nerveux.nvim'
   Plug 'nvim-lua/popup.nvim'
+"  Plug 'plasticboy/vim-markdown'
+  "Plug 'oberblastmeister/neuron.nvim', { 'branch': 'unstable' }
+  "Plug 'nvim-lua/popup.nvim'
 
 call plug#end()
