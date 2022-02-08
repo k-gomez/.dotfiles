@@ -78,5 +78,9 @@ require'lspconfig'.cssls.setup {
   capabilities = capabilities,
 }
 
+-- pyright 
+-- (python)
+require'lspconfig'.pyright.setup{}
+
 --vim
 require'lspconfig'.vimls.setup{}
