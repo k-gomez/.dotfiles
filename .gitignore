@@ -1,6 +1,9 @@
 Yubico/
+Signal/
+blender/
+gtk-2.0/
 nix/
-VirtualBox/*
+VirtualBox/
 VirtualBox/VBoxSVC.log
 VirtualBox/VirtualBox.xml
 VirtualBox/VirtualBox.xml-prev
