@@ -1,6 +1,8 @@
 " set leader key
 let g:mapleader = "\<Space>"
 
+" dissable auto-brackets
+
 syntax enable                           " Enables syntax highlighing
 set encoding=utf-8                      " The encoding displayed
 set pumheight=10                        " Makes popup menu smaller

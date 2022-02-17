@@ -5,9 +5,9 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
-  Plug 'sheerun/vim-polyglot'     " Better syntax support
+""  Plug 'sheerun/vim-polyglot'     " Better syntax support
  " Plug 'scrooloose/NERDTree'      " File explorer
-  Plug 'jiangmiao/auto-pairs'     " Auto pairs for '(' '[' '{'
+ " Plug 'jiangmiao/auto-pairs'     " Auto pairs for '(' '[' '{'
   Plug 'romainl/vim-dichromatic'  " A dark colorscheme for color blind vimmers, but not only.
   "Plug 'neoclide/coc.nvim', {'branch': 'release'}
   
