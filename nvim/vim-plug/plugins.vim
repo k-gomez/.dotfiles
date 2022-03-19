@@ -47,9 +47,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 "  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
   
   "Zettelkasten
-  "Plug 'pyrho/nerveux.nvim'
+  Plug 'pyrho/nerveux.nvim'
   Plug 'nvim-lua/popup.nvim'
 "  Plug 'plasticboy/vim-markdown'
-  Plug 'oberblastmeister/neuron.nvim', { 'branch': 'unstable' }
+  "Plug 'oberblastmeister/neuron.nvim', { 'branch': 'unstable' }
 
 call plug#end()
