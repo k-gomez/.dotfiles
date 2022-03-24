@@ -102,6 +102,7 @@ source $ZSH/oh-my-zsh.sh
 
 
 alias vim='nvim'
+alias present='pdfpc'
 
 # golang exports
 #export GO111MODULE=on
