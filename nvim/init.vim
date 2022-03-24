@@ -25,6 +25,8 @@ luafile $HOME/.config/nvim/plug-config/nerveux.lua
 
 luafile $HOME/.config/nvim/plug-config/devicons.lua
 
+luafile $HOME/.config/nvim/plug-config/lsp-format.lua
+
 
 " lsp
 "lua << EOF

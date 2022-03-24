@@ -52,4 +52,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 "  Plug 'plasticboy/vim-markdown'
   "Plug 'oberblastmeister/neuron.nvim', { 'branch': 'unstable' }
 
+  "Autoformat
+   Plug 'lukas-reineke/lsp-format.nvim'
+
 call plug#end()
