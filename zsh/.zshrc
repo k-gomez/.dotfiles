@@ -102,13 +102,18 @@ source $ZSH/oh-my-zsh.sh
 
 
 alias vim='nvim'
+alias i3lock='i3lock --color 000000'
 alias present='pdfpc'
 
-# golang exports
-#export GO111MODULE=on
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+# golang
+export PATH=$PATH:/usr/local/go/bin
 
 # protege
 alias protege='/home/kgb/tools/Protege-5.5.0/run.sh'
 
+# nvim
+export PATH="$HOME/neovim/bin:$PATH"
+
+export PATH=$PATH:/home/kgb/.config/nvim/ltex-ls/ltex-ls-15.2.0/bin
+
+if [ -e /home/kgb/.nix-profile/etc/profile.d/nix.sh ]; then . /home/kgb/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
