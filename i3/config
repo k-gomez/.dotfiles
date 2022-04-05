@@ -47,7 +47,6 @@ bindsym $mod+Shift+q kill
 # lock computer
 bindsym $mod+Shift+x i3lock
 
-
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
@@ -200,3 +199,8 @@ bindsym $mod+Shift+period exec systemctl suspend
 
 # Switch to last workspace
 bindsym $mod+Shift+Tab workspace back_and_forth
+
+exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/brave-browser'
+exec --no-startup-id i3-msg 'workspace 8; exec /usr/bin/thunderbird'
+exec --no-startup-id i3-msg 'workspace 9; exec /usr/bin/mattermost-desktop'
+exec --no-startup-id i3-msg 'workspace 9; exec /usr/bin/slack'
