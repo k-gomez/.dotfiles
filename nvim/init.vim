@@ -1,22 +1,23 @@
-" general settings
-source $HOME/.config/nvim/general/settings.vim 
+" general vim settings
+source $HOME/.config/nvim/settings/settings.vim 
 
 " plugins
 source $HOME/.config/nvim/plugins/plugins.vim
 
-" plugins config
-source $HOME/.config/nvim/plug-config/telescope.vim
-source $HOME/.config/nvim/plug-config/vimtex.vim
-source $HOME/.config/nvim/plug-config/treesitter.vim
-luafile $HOME/.config/nvim/plug-config/devicons.lua
-luafile $HOME/.config/nvim/plug-config/nerveux.lua
+" appearance
+source $HOME/.config/nvim/colors/colors.vim
 
-" lsp config
-luafile $HOME/.config/nvim/lua/lsp/main.lua
+" telescope configuration
+source $HOME/.config/nvim/plugins/config/telescope.vim
 
-" themes / colors
-"source $HOME/.config/nvim/themes/dichromatic.vim
-source $HOME/.config/nvim/themes/colors.vim
+" lsp-native and nvim-cmp (autocompletion) config
+luafile $HOME/.config/nvim/plugins/config/lsp.lua
 
-" Autoformat
-"luafile $HOME/.config/nvim/plug-config/lsp-format.lua
+" zettelkasten
+luafile $HOME/.config/nvim/plugins/config/nerveux.lua
+
+" treesitter
+luafile $HOME/.config/nvim/plugins/config/treesitter.lua
+
+" vimtex
+source $HOME/.config/nvim/plugins/config/vimtex.vim
