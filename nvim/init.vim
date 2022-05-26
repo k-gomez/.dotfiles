@@ -21,6 +21,3 @@ luafile $HOME/.config/nvim/plugins/config/treesitter.lua
 
 " vimtex
 source $HOME/.config/nvim/plugins/config/vimtex.vim
-
-" jupyter
-source $HOME/.config/nvim/plugins/config/jupyter.vim

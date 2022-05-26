@@ -35,7 +35,4 @@ call plug#begin()
     Plug 'nvim-lua/popup.nvim'
     "Plug 'oberblastmeister/neuron.nvim', { 'branch': 'unstable' }
     
-    " Jupyter notebook
-    Plug 'jupyter-vim/jupyter-vim'
-
 call plug#end()
