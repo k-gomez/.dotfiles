@@ -1,3 +1,5 @@
+require("nvim-lsp-installer").setup {}
+
 ------------------------------
 ------------------------------
 -- nvim-cmp setup
@@ -6,10 +8,10 @@
 vim.opt.completeopt = {'menu', 'menuone', 'noselect'}
 -- same as this one: set completeopt=menu,menuone,noselect
 
-local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
-
 -- Setup nvim-cmp.
 local cmp = require'cmp'
+
+local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
 
 cmp.setup({
   snippet = {
@@ -105,9 +107,62 @@ require'lspconfig'.pyright.setup{
 ------------------------------
 ------------------------------
 -- Latex
+-- (ltex is currently not working)
 ------------------------------
 ------------------------------
+--[[
 require'lspconfig'.ltex.setup{
+    capabilities = capabilities,
+    on_attach = function()
+        -- "n" == in normal mode (more modes must be in a table)
+        -- "K" == key that is pressed
+        -- rest == function that is called if the key is pressed
+        -- they keymap is ONLY set for gopls!
+        vim.keymap.set("n", "K", vim.lsp.buf.hover, {buffer=0})
+        vim.keymap.set("n", "gD", vim.lsp.buf.declaration, {buffer=0})
+        vim.keymap.set("n", "gd", vim.lsp.buf.definition, {buffer=0})
+        vim.keymap.set("n", "gi", vim.lsp.buf.implementation, {buffer=0})
+
+        vim.keymap.set('n', '<C-k>', vim.lsp.buf.signature_help, {buffer=0})
+        vim.keymap.set('n', '<leader>D', vim.lsp.buf.type_definition, {buffer=0})
+        vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, {buffer=0})
+        vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, {buffer=0})
+        vim.keymap.set('n', 'gr', vim.lsp.buf.references, {buffer=0})
+        vim.keymap.set('n', '<leader>f', vim.lsp.buf.format, {buffer=0})
+        vim.keymap.set('n', '<leader>df', vim.diagnostic.goto_next, {buffer=0})
+        vim.keymap.set('n', '<leader>dl', '<cmd>Telescope diagnostics<cr>', {buffer=0})
+    end
+}
+]]--
+require'lspconfig'.texlab.setup{
+    capabilities = capabilities,
+    on_attach = function()
+        -- "n" == in normal mode (more modes must be in a table)
+        -- "K" == key that is pressed
+        -- rest == function that is called if the key is pressed
+        -- they keymap is ONLY set for gopls!
+        vim.keymap.set("n", "K", vim.lsp.buf.hover, {buffer=0})
+        vim.keymap.set("n", "gD", vim.lsp.buf.declaration, {buffer=0})
+        vim.keymap.set("n", "gd", vim.lsp.buf.definition, {buffer=0})
+        vim.keymap.set("n", "gi", vim.lsp.buf.implementation, {buffer=0})
+
+        vim.keymap.set('n', '<C-k>', vim.lsp.buf.signature_help, {buffer=0})
+        vim.keymap.set('n', '<leader>D', vim.lsp.buf.type_definition, {buffer=0})
+        vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, {buffer=0})
+        vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, {buffer=0})
+        vim.keymap.set('n', 'gr', vim.lsp.buf.references, {buffer=0})
+        vim.keymap.set('n', '<leader>f', vim.lsp.buf.format, {buffer=0})
+        vim.keymap.set('n', '<leader>df', vim.diagnostic.goto_next, {buffer=0})
+        vim.keymap.set('n', '<leader>dl', '<cmd>Telescope diagnostics<cr>', {buffer=0})
+    end
+}
+
+------------------------------
+------------------------------
+-- Markdown
+------------------------------
+------------------------------
+require'lspconfig'.marksman.setup{
     capabilities = capabilities,
     on_attach = function()
         -- "n" == in normal mode (more modes must be in a table)
